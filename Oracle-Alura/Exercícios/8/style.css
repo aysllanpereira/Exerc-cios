@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+* {
+    margin: 10px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, #60F762, #7FD654);
+    
+    
+}
+
+h1 {
+    max-width: 1400px;
+    color: rgb(218, 255, 7);
+    background-color: #11631780;
+    border: 2px black solid;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h1:hover {
+    color: crimson;
+    background-color: aqua;
+}
+
+.jogo {
+    text-align: center;
+    
+}
+
+.caixa {
+    border: 1.5px black solid;
+    color: rgba(15, 46, 92, 0.753);
+    background-color: aquamarine;
+}
+
+.botao {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size: 0.8em;
+    border-radius: 6px;
+    color: rgb(34, 24, 94);
+    background-color: aquamarine;
+    
+
+}
+
+.caixa:hover {
+    color: blue;
+    background-color: black;
+}
+
+.botao:hover {
+    color: blue;
+    background-color: black;
+}

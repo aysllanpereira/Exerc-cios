@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Treinando lógica de programação</h1>
+
+    <script>
+        function pulaLinha() {
+            document.write("<br><br>");
+        }
+
+        function mostra(frase) {
+            document.write(frase);
+            pulaLinha();
+        }
+
+        function calcularImc(altura, peso) {
+            //para simplificar e facilitar o código
+            var imc = peso / (altura * altura);
+            mostra("O imc calculado é: " + imc);
+        }
+
+        calcularImc(1.74, 82);
+        calcularImc(1.60, 58);
+        calcularImc(1.89, 90);
+
+
+        function calcularImc(altura, peso) {
+
+            return peso / (altura * altura);
+            //simplificando tudo
+        }
+
+        var imcAysllan = calcularImc(1.74, 73);
+        var imcKeissy = calcularImc(1.60, 58);
+
+        mostra(imcAysllan);
+        mostra(imcKeissy);
+
+        //outras lógicas
+
+        var alturaInformada = 1.74;
+        var pesoInformado = 75;
+
+        var imc = calcularImc(alturaInformada, pesoInformado);
+
+        document.write("O imc calculado é: " + imc);
+
+
+
+    </script>
+
+<script>
+    function calcularImc(altura, peso) {
+        return peso / (altura * altura);
+
+    }
+
+    var nome = prompt("Informe o seu nome");
+    var peso = prompt(nome + ", informe o seu peso");
+    var altura = prompt(nome + ", informe a sua altura");
+
+    var imc = calcularImc(alturaInformada, pesoInformado);
+
+    mostra(nome +", o seu imc calculado é: " + imc);
+    
+    if(imc < 18.5) {
+        mostra("Você está abaixo do recomendado");
+    }
+
+    if(imc > 35) {
+        mostra("Você está acima do recomendado");
+    }
+
+    if(imc >= 18.5 && 35) {
+        mostra("Seu imc está ótimo!");
+    }
+    
+
+</script>
+
+</body>
+</html>

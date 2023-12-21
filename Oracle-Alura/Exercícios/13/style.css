@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #363ABF, #444AF2);
+}
+
+.login {
+    background-image: linear-gradient(to right, #44F51F, #81F76A);
+    width: 500px;
+    color: black;
+    margin: auto;
+    padding: auto;
+    border-radius: 15px;
+    max-width: 1200px;
+    min-width: 380px;
+
+}
+
+.quadro {
+    background-color: #20750F;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 400px;
+    height: 45px;
+    display: block;
+    margin: 15px auto;
+    padding: 6px;
+    top: 100px;
+    
+}
+
+.quadro:hover {
+    background-color: black;
+    color: blue;
+}
+
+.cad {
+    background-color: #20750F;
+    border: 1px solid black;
+    width: 150px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    border-radius: 8px;
+
+}
+
+.cad:hover {
+    background-color: black;
+    color: blue;
+}
+
+p {
+    font-weight: bold;
+}
+
+input {
+    background-image: linear-gradient(to right, rgb(96, 109, 67), rgb(110, 141, 93), transparent);
+    border-radius: 8px;
+}
+
+input:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.nome {
+    width: 450px;
+    height: 22px;
+}
+
+.cpf {
+    width: 170px;
+    height: 22px;
+}
+
+.data {
+    width: 170px;
+    height: 22px;
+}
+
+.mail {
+    width: 400px;
+    height: 22px;
+}
+
+.botao {
+    background-color: #20750F;
+    color: black;
+    width: 110px;
+    position: relative;
+    margin: 25px;
+    padding: 8px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.botao:hover {
+    background-color: black;
+    color: blue;
+}

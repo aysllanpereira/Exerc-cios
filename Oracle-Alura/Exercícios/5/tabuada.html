@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+</head>
+<body>
+    <h1>Tabuada</h1>
+
+    <script>
+        function pulaLinha() {
+            document.write("<br><br>");
+        }
+
+        function mostra(tabu) {
+            document.write(tabu);
+            pulaLinha();
+        }
+
+        var multiplicador = 1;
+
+        //essas são duas formas de repetição, for e while
+        //para facilitar e quando for somar mais um número, usa-se a variável e o sinal de + duas vezes (multiplicador++;).
+
+        for(var multiplicador = 1; multiplicador <= 10; multiplicador++) {
+            mostra(7 * multiplicador);
+        }
+
+        mostra("Fim!");
+
+    </script>
+</body>
+</html>

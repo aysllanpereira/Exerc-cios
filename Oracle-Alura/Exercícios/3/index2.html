@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Testes...</h1>
+    <script>
+        function pulaLinha() {
+            document.write("<br>");
+        }
+
+        function mostra(salvo) {
+            document.write(salvo);
+            pulaLinha();
+        }
+
+        var nome = prompt("Digite o nome");
+        var numero = parseInt(prompt("Digite o número"));
+        var valor = parseInt(prompt("Valor do boleto"));
+        var data = parseInt(prompt("Data de pagamento"));
+
+        if(nome) {
+            mostra("Cliente: " + nome);
+        } 
+
+        if(numero) {
+            mostra("Contato: " + numero);
+        }
+
+        if(valor) {
+            mostra("Valor do Boleto: " + valor);
+        }
+
+        if(data) {
+            mostra("Data de vencimento: " + data);
+        }
+    </script>
+</body>
+</html>

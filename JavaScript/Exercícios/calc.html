@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetinho</title>
+    <link rel="stylesheet" href="multa.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <h1>CALCULO DE MULTA</h1>
+    </header>
+    <section class="conteudo">
+        <div class="contrato">
+            <p>Contrato:
+                <label for="Contrato">
+                    <input type="text" name="contrato" id="icontrato">
+                </label>  
+            </p>
+        </div>
+        <br>
+        <div class="valor">
+            <p>Valor:
+                <label for="Valor">
+                    <input type="number" name="Valor" id="ivalor">
+                </label>
+            </p>
+            <br>
+            <p>Data de Quitação:
+                <label for="Data Quitação">
+                    <input type="date" name="data" id="idata">
+                </label>
+            </p>
+            <br>
+            <p>Prazo:
+                <label for="Prazo">
+                    <input type="number" name="prazo" id="iprazo">
+                </label>
+            </p>
+            <br>
+            <p>Data do Dia:
+                <label for="Data do Dia">
+                    <input type="date" name="datadodia" id="idatadodia">
+                </label>
+            </p>
+        </div>
+        <div id="resultado" class="result">
+            <button>Calcular</button>
+        </div>
+
+    </section>
+    <script src="multa.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+
+</body>
+</html>
